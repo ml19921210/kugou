@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>酷狗音乐</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-route/angular-route.min.js"></script>
+    <script src="node_modules/angular-animate/angular-animate.min.js"></script>
+    <script src="js/zepto.min.js"></script>
+    <script src="node_modules/touchjs/touch.min.js"></script>
+    <script src="node_modules/touchjs/src/api.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/controller.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="ico/iconfont.css">
+    <link rel="stylesheet" href="ico1/iconfont.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body ng-app="myapp">
+<header>
+    <div class="left">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <span>Carrier</span>
+        <span class="iconfont icon-wifi"></span>
+    </div>
+    <div class="time">4:21 PM</div>
+    <div class="right">
+        <span class="iconfont icon-lanya"></span>
+        <span>22%</span>
+        <span class="iconfont icon-dianliang3"></span>
+    </div>
+</header>
+<nav>
+    <div class="a"></div>
+    <div class="listen">
+        <div class="touxiang"></div>
+        <img src="img/sousuo.png" alt="" class="sousuo">
+        <div class="zi">
+            <a href="#/">听</a>
+            <a href="javascript:;">看</a>
+            <a href="javascript:;">唱</a>
+        </div>
+    </div>
+    <div class="like">
+        <div class="zhe"></div>
+        <a href="#/list/0">
+            <img src="img/xin.png" alt="">
+            <span>我喜欢</span>
+        </a>
+        <a href="#/list/1">
+            <img src="img/lie.png" alt="">
+            <span>歌单</span>
+        </a>
+        <a href="#/list/2">
+            <img src="img/xiazai.png" alt="">
+            <span>下载</span>
+        </a>
+        <a href="#/list/3">
+            <img src="img/biao.png" alt="">
+            <span>最近</span>
+        </a>
+        <div class="xian"></div>
+    </div>
+</nav>
+<div ng-view class="view-animate">
+
+</div>
+<div class="abc"></div>
+<footer>
+    <div class="box"></div>
+    <div class="tiao">
+        <div class="xian"></div>
+        <div class="yuan"></div>
+    </div>
+    <div class="xia">
+        <p>曾经的你</p>
+        <p>许巍</p>
+        <div class="right">
+            <img src="img/zan.png" alt="">
+            <img src="img/begin.png" alt="">
+            <img src="img/liebiao.png" alt="">
+        </div>
+    </div>
+</footer>
+</body>
+</html>
